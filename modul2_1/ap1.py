@@ -1,0 +1,7 @@
+result1 = input('baza: ')
+print(result1)
+result2 = input('inaltimea: ')
+print(result2)
+result = (int(result1) + int(result2)/2)
+print(type(result))
+print('Aria triunghiului: ', result)
