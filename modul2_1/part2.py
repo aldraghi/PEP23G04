@@ -34,12 +34,6 @@
 # An_nastere = (int(An_curent) - int(Varsta))
 # print(f'Ceau {Numele_utilizatorului}! Deci te-ai nascut in {int(An_curent) - int(Varsta)}')
 
-# Lab1 modul2.2
-# Ex3
-
-# sir = input('Introduceti un sir:')
-
-
 # String methods
 # my_string = 'Hello World, {}'
 # my_string = my_string.format('Python')
@@ -49,6 +43,109 @@
 # my_string = my_string.format('Python', 'User')
 # print(my_string)
 
-my_string = 'Hello World, {arg1} {arg2}'
-my_string = my_string.format(arg1='Python', arg2='User')
-print(my_string)
+# my_string = 'Hello World, {arg1} {arg2}'
+# my_string = my_string.format(arg1='Python', arg2='User')
+# print(my_string)
+
+# my_string = 'Hello World, {arg1} {arg2}'
+# print(len(my_string))
+
+# Lab1 modul2.2
+# Ex3
+
+# Student code
+# row = input('Introduceti un sir: ')
+# print('Lungimea sirului este:', len(row))
+# print('Lungimea sirului este: {}'.format(len(row)))
+# print(f'Lungimea sirului este: {len(row)}')
+# print('Lungimea sirului este: ' + str(len(row)))
+#
+# row = input('Introduceti un sir:')
+# print('Lungimea sirului este:', len(row))
+# print('Lungimea sirului este: {}'.format(len(row)))
+# print(f'Lungimea sirului este: {len(row)}')
+# print('Lungimea sirului este: ' + str(len(row)))
+
+# Lab1 modul2.2
+# Ex4
+# example function center
+# Student code c
+# print('*'.center(7,' '))
+# print('***'.center(7,' '))
+# print('*****'.center(7,' '))
+# print('*******'.center(7,' '))
+
+# Student code a
+
+# print("/-\\".center(9, ' '))
+# print('//-\\\\'.center(9, ' '))
+# print('-------'.center(9, ' '))
+# print('\\\\-//'.center(9, ' '))
+# print("\\-/".center(9, ' '))
+
+# Student code b
+# print("____".center(11, ' '))
+# print('/      \\'.center(11, ' '))
+# print('/        \\'.center(11, ' '))
+# print('/__________\\'.center(11, ' '))
+
+# Slice - Taierea unui sir
+
+# my_string = 'Hello World'
+# print(my_string[0])
+# print(my_string[len(my_string) - 1])
+
+# my_string = 'Hello World'
+# print(my_string[0])
+# print(my_string[len(my_string) - 1])
+# print(my_string[-1])
+
+# 'Hello World'
+# 0123456789
+# -10-9-8-7-6-5-4-3-2-1
+# Index
+# my_string = 'Hello World'
+# print(my_string[len(my_string) - 1])
+# print(my_string[-1])
+# print(my_string[-3])
+
+# 'Hello World'
+# 0123456789
+# -10-9-8-7-6-5-4-3-2-1
+# my_string = 'Hello World'
+# print(my_string[0:3])
+# print(my_string[-5:-1])
+
+# 'Hello World'
+# 0123456789
+# -10-9-8-7-6-5-4-3-2-1
+#Slice
+# my_string = 'Hello World'
+# print(my_string[0:3])
+# print(my_string[-5:-1])
+# print(my_string[-5:])
+# print(my_string[:-2])
+# print(my_string[:])
+# Result
+# Hel
+# Worl
+# World
+# Hello Wor
+# Hello World
+
+# Step
+# my_string = 'Hello World'
+# print(my_string[::1])
+# print(my_string[::-1])
+# print(my_string[::-2])
+# print(my_string[0:7:1])
+# Result
+# Hello World
+# dlroW olleH
+# drWolH
+# Hello W
+
+
+
+# Lab1 modul2.2
+# Ex4
