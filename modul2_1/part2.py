@@ -26,7 +26,7 @@
 # print(string2)
 # print(string3, sep='\t')
 
-# Lab1 modul2.2
+# Module 2.2 - Operații cu șiruri
 # Ex2
 # Numele_utilizatorului = input('Cum te numesti?')
 # Varsta = input('Ce varsta ai?')
@@ -50,7 +50,7 @@
 # my_string = 'Hello World, {arg1} {arg2}'
 # print(len(my_string))
 
-# Lab1 modul2.2
+# Module 2.2 - Operații cu șiruri
 # Ex3
 
 # Student code
@@ -66,7 +66,7 @@
 # print(f'Lungimea sirului este: {len(row)}')
 # print('Lungimea sirului este: ' + str(len(row)))
 
-# Lab1 modul2.2
+# Module 2.2 - Operații cu șiruri
 # Ex4
 # example function center
 # Student code c
@@ -147,5 +147,46 @@
 
 
 
-# Lab1 modul2.2
-# Ex4
+# Module 2.2 - Operații cu șiruri
+# Ex5
+
+# word = input('Enter a word:')
+# print()
+
+# Module 2.2 - Operații cu șiruri
+# Ex6
+
+# print('Hello Python')
+# print('Ana are mere')
+# print('Pizza Party')
+# print()
+# print('Hello', 'Python', sep="_")
+# print('Ana', 'are', 'mere', sep="_")
+# print('Pizza', 'Party', sep='_')
+# print()
+# print('Hello Python',end='.\n')
+# print('Ana are mere',end='.\n')
+# print('Pizza Party',end='.\n')
+# print()
+# print('Hello'*4, 'Python')
+# print('Ana'*4, 'are mere')
+# print('Pizza'*4, 'Party')
+
+# Module 2.2 - Operații cu șiruri
+# Ex7
+
+var_a = 5.
+var_b = 5
+var_c = "ana"
+print(var_a)
+print(var_b)
+print(var_c)
+print()
+print(hex(id(var_a)))
+print(hex(id(var_b)))
+print(hex(id(var_c)))
+print()
+print('Tipul variabilei a este:', type(var_a))
+print('Tipul variabilei b este:', type(var_b))
+print('Tipul variabilei c este:', type(var_c))
+
