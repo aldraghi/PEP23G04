@@ -17,22 +17,22 @@
 # string_with_quotes = 'my string \''
 # print(string_with_quotes)
 
-# Lab1 modul2.2
+# Lab1 Module 2.2 - Operații cu șiruri
 # Ex1
 # string1 = "Astazi ma duc la 'facultate'."
-# string2 = '/*\/*\*/*\\*\\\n Python\n \\./\\./\\./'
+# string2 = '/*\/*\*/*\\/*\\\n Python\n \\./\\./\\./\\./'
 # string3 = 'P y t h o n'
 # print(string1)
 # print(string2)
 # print(string3, sep='\t')
 
-# Module 2.2 - Operații cu șiruri
+# Lab1 Module 2.2 - Operații cu șiruri
 # Ex2
 # Numele_utilizatorului = input('Cum te numesti?')
 # Varsta = input('Ce varsta ai?')
 # An_curent = 2023
 # An_nastere = (int(An_curent) - int(Varsta))
-# print(f'Ceau {Numele_utilizatorului}! Deci te-ai nascut in {int(An_curent) - int(Varsta)}')
+# print(f'Ceau {Numele_utilizatorului}! Deci te-ai nascut in {int(An_curent) - int(Varsta)}', end='.')
 
 # String methods
 # my_string = 'Hello World, {}'
@@ -50,44 +50,51 @@
 # my_string = 'Hello World, {arg1} {arg2}'
 # print(len(my_string))
 
-# Module 2.2 - Operații cu șiruri
+# Lab1 Module 2.2 - Operații cu șiruri
 # Ex3
 
 # Student code
 # row = input('Introduceti un sir: ')
-# print('Lungimea sirului este:', len(row))
 # print('Lungimea sirului este: {}'.format(len(row)))
 # print(f'Lungimea sirului este: {len(row)}')
 # print('Lungimea sirului este: ' + str(len(row)))
-#
-# row = input('Introduceti un sir:')
 # print('Lungimea sirului este:', len(row))
-# print('Lungimea sirului este: {}'.format(len(row)))
-# print(f'Lungimea sirului este: {len(row)}')
-# print('Lungimea sirului este: ' + str(len(row)))
 
-# Module 2.2 - Operații cu șiruri
+
+# Lab1 Module 2.2 - Operații cu șiruri
 # Ex4
 # example function center
-# Student code c
-# print('*'.center(7,' '))
-# print('***'.center(7,' '))
-# print('*****'.center(7,' '))
-# print('*******'.center(7,' '))
 
 # Student code a
-
 # print("/-\\".center(9, ' '))
-# print('//-\\\\'.center(9, ' '))
+# print('//_\\\\'.center(9, ' '))
 # print('-------'.center(9, ' '))
-# print('\\\\-//'.center(9, ' '))
-# print("\\-/".center(9, ' '))
+# print('\\\\_//'.center(9, ' '))
+# print("\\_/".center(9, ' '))
+
+# print('/-\\'.center(33, ' '))
+# print('/---\\'.center(33, ' '))
+# print('/-----\\'.center(33, ' '))
+# print('0---------0'.center(33, ' '))
+# print('\\-----/'.center(33, ' '))
+# print('\\---/'.center(33, ' '))
+# print('\\-/'.center(33, ' '))
 
 # Student code b
 # print("____".center(11, ' '))
-# print('/      \\'.center(11, ' '))
-# print('/        \\'.center(11, ' '))
-# print('/__________\\'.center(11, ' '))
+# print()
+# print('/    \\'.center(11, ' '))
+# print('/______\\'.center(11, ' '))
+
+# Student code c
+# print('*'.center(7, ' '))
+# print('***'.center(7, ' '))
+# print('*****'.center(7, ' '))
+# print('*******'.center(7, ' '))
+
+
+
+
 
 # Slice - Taierea unui sir
 
@@ -150,8 +157,18 @@
 # Module 2.2 - Operații cu șiruri
 # Ex5
 
-# word = input('Enter a word:')
-# print()
+str1 = input('Enter a word:')
+print('a:', str1)
+print('b:', str1[::-1])
+print(bool(a==b))
+
+# if (a) == (b):
+#     print('Palindrome: True')
+# else:
+#     print('Palindrome: False')
+
+
+
 
 # Module 2.2 - Operații cu șiruri
 # Ex6
@@ -175,18 +192,18 @@
 # Module 2.2 - Operații cu șiruri
 # Ex7
 
-var_a = 5.
-var_b = 5
-var_c = "ana"
-print(var_a)
-print(var_b)
-print(var_c)
-print()
-print(hex(id(var_a)))
-print(hex(id(var_b)))
-print(hex(id(var_c)))
-print()
-print('Tipul variabilei a este:', type(var_a))
-print('Tipul variabilei b este:', type(var_b))
-print('Tipul variabilei c este:', type(var_c))
+# var_a = 5.
+# var_b = 5
+# var_c = "ana"
+# print(var_a)
+# print(var_b)
+# print(var_c)
+# print()
+# print(hex(id(var_a)))
+# print(hex(id(var_b)))
+# print(hex(id(var_c)))
+# print()
+# print('Tipul variabilei a este:', type(var_a))
+# print('Tipul variabilei b este:', type(var_b))
+# print('Tipul variabilei c este:', type(var_c))
 
