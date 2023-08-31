@@ -192,17 +192,17 @@
 # Module 2.2 - Operații cu șiruri
 # Ex7
 
-var_a = 5.
-var_b = 5
-var_c = "ana"
-print(var_a)
-print(var_b)
-print(var_c)
-print()
-print('Location of a is:', hex(id(var_a)))
-print('Location of b is:', hex(id(var_b)))
-print('Location of c is:', hex(id(var_c)))
-print()
-print('Type of variable a is:', type(var_a))
-print('Type of variable b is:', type(var_b))
-print('Type of variable c is:', type(var_c))
+# var_a = 5.
+# var_b = 5
+# var_c = "ana"
+# print(var_a)
+# print(var_b)
+# print(var_c)
+# print()
+# print('Location of a is:', hex(id(var_a)))
+# print('Location of b is:', hex(id(var_b)))
+# print('Location of c is:', hex(id(var_c)))
+# print()
+# print('Type of variable a is:', type(var_a))
+# print('Type of variable b is:', type(var_b))
+# print('Type of variable c is:', type(var_c))
