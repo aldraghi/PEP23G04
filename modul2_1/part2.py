@@ -157,10 +157,10 @@
 # Module 2.2 - Operații cu șiruri
 # Ex5
 
-str1 = input('Enter a word:')
-print('a:', str1)
-print('b:', str1[::-1])
-print(bool(a==b))
+# str1 = input('Enter a word:')
+# print('a:', str1)
+# print('b:', str1[::-1])
+# print(bool(a == b))
 
 # if (a) == (b):
 #     print('Palindrome: True')
@@ -181,29 +181,28 @@ print(bool(a==b))
 # print('Ana', 'are', 'mere', sep="_")
 # print('Pizza', 'Party', sep='_')
 # print()
-# print('Hello Python',end='.\n')
-# print('Ana are mere',end='.\n')
-# print('Pizza Party',end='.\n')
+# print('Hello Python', end='.\n')
+# print('Ana are mere', end='.\n')
+# print('Pizza Party', end='.\n')
 # print()
-# print('Hello'*4, 'Python')
-# print('Ana'*4, 'are mere')
-# print('Pizza'*4, 'Party')
+# print('Hello' * 4, 'Python')
+# print('Ana' * 4, 'are mere')
+# print('Pizza' * 4, 'Party')
 
 # Module 2.2 - Operații cu șiruri
 # Ex7
 
-# var_a = 5.
-# var_b = 5
-# var_c = "ana"
-# print(var_a)
-# print(var_b)
-# print(var_c)
-# print()
-# print(hex(id(var_a)))
-# print(hex(id(var_b)))
-# print(hex(id(var_c)))
-# print()
-# print('Tipul variabilei a este:', type(var_a))
-# print('Tipul variabilei b este:', type(var_b))
-# print('Tipul variabilei c este:', type(var_c))
-
+var_a = 5.
+var_b = 5
+var_c = "ana"
+print(var_a)
+print(var_b)
+print(var_c)
+print()
+print('Location of a is:', hex(id(var_a)))
+print('Location of b is:', hex(id(var_b)))
+print('Location of c is:', hex(id(var_c)))
+print()
+print('Type of variable a is:', type(var_a))
+print('Type of variable b is:', type(var_b))
+print('Type of variable c is:', type(var_c))
