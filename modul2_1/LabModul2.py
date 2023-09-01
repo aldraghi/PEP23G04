@@ -245,8 +245,8 @@
 # kilometers = 12.25
 # miles = 7.38
 #
-# miles_to_kilometers = miles * kilometers
-# kilometers_to_miles = kilometers / miles
+# miles_to_kilometers = miles * 1.61
+# kilometers_to_miles = kilometers * (1/1.61)
 #
 # print(miles, "miles is", round(miles_to_kilometers, 2), "kilometers")
 # print(kilometers, "kilometers is", round(kilometers_to_miles, 2), "miles")
@@ -279,6 +279,12 @@
 # x =  # hardcode your test data here
 # x = float(x)
 # # write your code here
+# print("y =", y)
+
+# Correct code
+# x = input('x =')  # hardcode your test data here
+# x = float(x)
+# y = float(3 * x ** 3 - 2 * x ** 2 + 3 * x - 1)  # hardcode your test data here
 # print("y =", y)
 
 # 2.5 Leaving comments in code
